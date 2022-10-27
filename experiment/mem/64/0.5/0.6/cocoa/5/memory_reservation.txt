@@ -1,0 +1,3 @@
+Average Memory Reservation (GB/S): 90.29687836400059
+Average Memory Reservation (GB/S): 90.28326547305684
+Average Memory Reservation (GB/S): 902.7451164293152
