@@ -774,7 +774,7 @@ public class FaasSim {
 		processMemoryUsage((time - sampleCountStartTime));
 		processCpuUsage((time - sampleCountStartTime));
 
-		System.out.println(maxMemoryUsage);
+		System.out.println("maxMemoryUsage: " + maxMemoryUsage);
 
 		calculateIndividualFunctionResponseTimes();
 
