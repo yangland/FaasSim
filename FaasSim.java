@@ -729,7 +729,9 @@ public class FaasSim {
 
 	public void flushDelays(int fId, double currentTime) {
 
-		coldFunctionIds.remove(new Integer(fId));
+		// coldFunctionIds.remove(new Integer(fId));
+		coldFunctionIds.remove(Integer.valueOf(fId));
+
 
 		Iterator<Job> itr = delays.iterator();
 		while (itr.hasNext()) {
